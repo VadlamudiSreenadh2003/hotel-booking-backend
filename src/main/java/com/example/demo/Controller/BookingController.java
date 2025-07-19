@@ -23,29 +23,6 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/bookings")
 @CrossOrigin(origins = "http://localhost:5173")
-//public class BookingController {
-//
-//    @Autowired
-//    private BookingService bookingService;
-//
-//    @PostMapping
-//    public ResponseEntity<Booking> createBooking(@RequestBody Booking booking) {
-//        Booking savedBooking = bookingService.createBooking(booking);
-//        return ResponseEntity.ok(savedBooking);
-//    }
-//
-//    @GetMapping("/{id}")
-//    public ResponseEntity<Booking> getBooking(@PathVariable Long id) {
-//        return bookingService.getBooking(id)
-//                .map(ResponseEntity::ok)
-//                .orElseGet(() -> ResponseEntity.notFound().build());
-//    }
-//}
-//
-// 
-
-
- 
 public class BookingController {
 
     @Autowired
